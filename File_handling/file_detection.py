@@ -1,6 +1,6 @@
 # FILE DETECTION means detecting whether a file exists or not in the system.
-# We can use the os module to detect whether a file exists or not.
 
+# We use the os module to detect whether a file exists or not.
 import os
 # To detect whether a file exists or not, we can use the os.path.exists() function.
 file_path = "example.txt"
