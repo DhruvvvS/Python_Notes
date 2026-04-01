@@ -1,3 +1,5 @@
+# PyQt5 Labels Example
+
 import sys
 
 # importing QLabel module from PyQt5.QtWidgets pacjkage to create a label in the application
