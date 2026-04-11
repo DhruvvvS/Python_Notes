@@ -2,6 +2,8 @@
 # allow you to customize the appearance of your application by applying styles to widgets. 
 # You can define styles for various widget types, such as QPushButton, QLabel, QLineEdit, etc., using CSS syntax.
 
+# In this example, we create a simple PyQt5 application with three QPushButton widgets.
+# We set the object names for each button to target them in CSS and apply styles to all buttons at once using the setStyleSheet method.
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QHBoxLayout
 
