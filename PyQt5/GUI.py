@@ -19,7 +19,8 @@ class MainWindow(QMainWindow):
         self.setGeometry(700, 400, 400, 300)
         # Set the geometry of the main window with x=700, y=400, width=400, and height=300.
         # Here x and y specify the position of the window on the screen in pixels.
-        self.setWindowIcon(QIcon("image_.gif"))
+        icon = QIcon("image_.gif")
+        self.setWindowIcon(icon)
         # Set the window icon using an image file named "image_.gif". Make sure this file is in the same directory as your script or provide the correct path.
 
 def main():
